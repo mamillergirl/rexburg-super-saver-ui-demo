@@ -9,9 +9,10 @@ import Footer from "./footer";
 function Albertsons() {
   return (
     <>
+    <Header/>
       <div className="div">
         
-        <Header/>
+        
       
         <Section title={"Albertsons"} number={312}/>
         

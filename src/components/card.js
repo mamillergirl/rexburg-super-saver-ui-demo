@@ -55,11 +55,11 @@ function Card({id, name, originalPrice, salePrice, img, endDate, storeImage}){
     return (
       <>
         <div className="div-43">
-            <div className="div-44">
+            <div id="div-44">
               <img alt="test"
                 loading="lazy"
                 srcSet= {img}
-                 className="img-8"
+                 id="img-8"
               />
             </div>
             <div className="div-48">
@@ -115,11 +115,21 @@ function Card({id, name, originalPrice, salePrice, img, endDate, storeImage}){
             object-fit: contain;
             
           }
+          #img-8 {
+          
+            object-fit: cover;
+          }
+        
+
 
           .icon {
             font-size: 25px;
           }
          
+         #div-44 {
+            display: flex;
+            justify-content: center;
+         }
 
         `}</style>
           </>

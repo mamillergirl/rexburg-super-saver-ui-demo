@@ -9,9 +9,10 @@ import Footer from "./footer";
 function Broulims() {
   return (
     <>
+     <Header/>
       <div className="div">
         
-        <Header/>
+       
       
         <Section title={"Broulims"} number={346}/>
         

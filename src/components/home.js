@@ -9,9 +9,10 @@ import Footer from "./footer";
 function Home() {
   return (
     <>
+    <Header/>
       <div className="div">
         
-        <Header/>
+        
         <div className="div-26">
           <img alt="test"
             loading="lazy"
@@ -46,7 +47,7 @@ function Home() {
             </div>
           </div>
         </div>
-        <Section title = {"Featured Deals"} number = {10}/>
+        <Section title = {"Featured Deals"} number = {8}/>
         
             
           
@@ -158,10 +159,10 @@ function Home() {
           </div>
         
   
-          <Section title={"Albertsons"} number={5}/>
+          <Section title={"Albertsons"} number={4}/>
 
      
-        <Section title={"Broulims"} number={5}/>
+        <Section title={"Broulims"} number={4}/>
         </div>
         </div>
         <div className="div-243">
@@ -667,10 +668,10 @@ function Home() {
           align-self: center;
           position: relative;
           display: flex;
-          min-height: 503px;
+          min-height: 50%;
           margin-top: 66px;
           width: 100%;
-          max-width: 1319px;
+    
           padding: 0px;
  
         }
@@ -2843,7 +2844,7 @@ function Home() {
           max-width: 1321px;
           align-items: flex-start;
           gap: 0px;
-          padding: 0 20px;
+          
         }
         @media (max-width: 991px) {
           .div-164 {

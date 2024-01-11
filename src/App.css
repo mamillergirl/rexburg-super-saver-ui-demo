@@ -40,3 +40,47 @@
 img {
   object-fit: contain;
 }
+
+button {
+  background-color: white;
+  border: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+
+.div {
+  max-width: 75%;
+  margin: 0 auto;
+}
+
+.div-26{
+  max-height: 20%;
+}
+
+.div-164 {
+  margin: 0px;
+  padding: 0px;
+
+}
+
+
+.div-26 {
+  max-height: 200px;
+}
+.fWWHWe {
+  margin: 0px;
+}
+.sc-bdnyFh  {
+  margin: 0px;
+}
+
+.div-43 {
+  width: 200px;
+}
+
+img {
+  max-width: 100%;
+}

@@ -86,7 +86,7 @@ function Header(){
             aspect-ratio: 5.27;
             object-fit: cover;
             object-position: center;
-            width: 406px;
+            width: 275px;
             overflow: hidden;
             align-self: start;
             margin-top: 10px;
@@ -176,7 +176,7 @@ function Header(){
             aspect-ratio: 0.89;
             object-fit: cover;
             object-position: center;
-            width: 31px;
+            width: 25px;
             fill: #000;
             overflow: hidden;
             align-self: start;
@@ -287,12 +287,12 @@ function Header(){
         
           .superScript{
             position: absolute;
-            top: 5%; /* Adjust this value to position the sup element above the image */
+            top: 3%; /* Adjust this value to position the sup element above the image */
             left: 15%; /* Adjust this value to position the sup element right of the image */
             background-color:#f1984d;
             border-radius: 5px;
             color: black; /* Change this to the desired text color */
-            padding: 6px; /* Optional: Add padding for better visibility */
+            padding: 5px; /* Optional: Add padding for better visibility */
             z-index: 2; /* Ensure it's above the image */
           }
         
