@@ -47,7 +47,7 @@ function Home() {
             </div>
           </div>
         </div>
-        <Section title = {"Featured Deals"} number = {8}/>
+        <Section title = {"Featured Deals"} number = {10}/>
         
             
           
@@ -64,7 +64,7 @@ function Home() {
                   <img alt="test"
                     loading="lazy"
                     srcSet="https://cdn.builder.io/api/v1/image/assets/TEMP/0f64554a-4aa5-46dd-a798-e88471c64d83?apiKey=972b909c88a047a3bdbd2a879eeb0409&width=100 100w, https://cdn.builder.io/api/v1/image/assets/TEMP/0f64554a-4aa5-46dd-a798-e88471c64d83?apiKey=972b909c88a047a3bdbd2a879eeb0409&width=200 200w, https://cdn.builder.io/api/v1/image/assets/TEMP/0f64554a-4aa5-46dd-a798-e88471c64d83?apiKey=972b909c88a047a3bdbd2a879eeb0409&width=400 400w, https://cdn.builder.io/api/v1/image/assets/TEMP/0f64554a-4aa5-46dd-a798-e88471c64d83?apiKey=972b909c88a047a3bdbd2a879eeb0409&width=800 800w, https://cdn.builder.io/api/v1/image/assets/TEMP/0f64554a-4aa5-46dd-a798-e88471c64d83?apiKey=972b909c88a047a3bdbd2a879eeb0409&width=1200 1200w, https://cdn.builder.io/api/v1/image/assets/TEMP/0f64554a-4aa5-46dd-a798-e88471c64d83?apiKey=972b909c88a047a3bdbd2a879eeb0409&width=1600 1600w, https://cdn.builder.io/api/v1/image/assets/TEMP/0f64554a-4aa5-46dd-a798-e88471c64d83?apiKey=972b909c88a047a3bdbd2a879eeb0409&width=2000 2000w, https://cdn.builder.io/api/v1/image/assets/TEMP/0f64554a-4aa5-46dd-a798-e88471c64d83?apiKey=972b909c88a047a3bdbd2a879eeb0409&"
-                    className="img-67"
+                    className="img-67 "
                   />
                   <div className="div-120">Best Deals</div>
                   <div className="div-121">Sale of the Month</div>
@@ -108,7 +108,7 @@ function Home() {
                   <img alt="test"
                     loading="lazy"
                     srcSet="https://cdn.builder.io/api/v1/image/assets/TEMP/85a751a6-0107-4a4c-b849-93388c582b70?apiKey=972b909c88a047a3bdbd2a879eeb0409&width=100 100w, https://cdn.builder.io/api/v1/image/assets/TEMP/85a751a6-0107-4a4c-b849-93388c582b70?apiKey=972b909c88a047a3bdbd2a879eeb0409&width=200 200w, https://cdn.builder.io/api/v1/image/assets/TEMP/85a751a6-0107-4a4c-b849-93388c582b70?apiKey=972b909c88a047a3bdbd2a879eeb0409&width=400 400w, https://cdn.builder.io/api/v1/image/assets/TEMP/85a751a6-0107-4a4c-b849-93388c582b70?apiKey=972b909c88a047a3bdbd2a879eeb0409&width=800 800w, https://cdn.builder.io/api/v1/image/assets/TEMP/85a751a6-0107-4a4c-b849-93388c582b70?apiKey=972b909c88a047a3bdbd2a879eeb0409&width=1200 1200w, https://cdn.builder.io/api/v1/image/assets/TEMP/85a751a6-0107-4a4c-b849-93388c582b70?apiKey=972b909c88a047a3bdbd2a879eeb0409&width=1600 1600w, https://cdn.builder.io/api/v1/image/assets/TEMP/85a751a6-0107-4a4c-b849-93388c582b70?apiKey=972b909c88a047a3bdbd2a879eeb0409&width=2000 2000w, https://cdn.builder.io/api/v1/image/assets/TEMP/85a751a6-0107-4a4c-b849-93388c582b70?apiKey=972b909c88a047a3bdbd2a879eeb0409&"
-                    className="img-69"
+                    className="img-69 home-img"
                   />
                   <div className="div-143">85% Fat Free</div>
                   <div className="div-144">Low-Fat Meat</div>
@@ -135,7 +135,7 @@ function Home() {
                   <img alt="test"
                     loading="lazy"
                     srcSet="https://cdn.builder.io/api/v1/image/assets/TEMP/7411f2f4-59df-4a52-8732-4f68ca3e1901?apiKey=972b909c88a047a3bdbd2a879eeb0409&width=100 100w, https://cdn.builder.io/api/v1/image/assets/TEMP/7411f2f4-59df-4a52-8732-4f68ca3e1901?apiKey=972b909c88a047a3bdbd2a879eeb0409&width=200 200w, https://cdn.builder.io/api/v1/image/assets/TEMP/7411f2f4-59df-4a52-8732-4f68ca3e1901?apiKey=972b909c88a047a3bdbd2a879eeb0409&width=400 400w, https://cdn.builder.io/api/v1/image/assets/TEMP/7411f2f4-59df-4a52-8732-4f68ca3e1901?apiKey=972b909c88a047a3bdbd2a879eeb0409&width=800 800w, https://cdn.builder.io/api/v1/image/assets/TEMP/7411f2f4-59df-4a52-8732-4f68ca3e1901?apiKey=972b909c88a047a3bdbd2a879eeb0409&width=1200 1200w, https://cdn.builder.io/api/v1/image/assets/TEMP/7411f2f4-59df-4a52-8732-4f68ca3e1901?apiKey=972b909c88a047a3bdbd2a879eeb0409&width=1600 1600w, https://cdn.builder.io/api/v1/image/assets/TEMP/7411f2f4-59df-4a52-8732-4f68ca3e1901?apiKey=972b909c88a047a3bdbd2a879eeb0409&width=2000 2000w, https://cdn.builder.io/api/v1/image/assets/TEMP/7411f2f4-59df-4a52-8732-4f68ca3e1901?apiKey=972b909c88a047a3bdbd2a879eeb0409&"
-                    className="img-71"
+                    className="img-71 home-img"
                   />
                   <div className="div-153">Summer Sale</div>
                   <div className="div-154">100% Fresh Fruit</div>
@@ -159,10 +159,10 @@ function Home() {
           </div>
         
   
-          <Section title={"Albertsons"} number={4}/>
+          <Section title={"Albertsons"} number={5}/>
 
      
-        <Section title={"Broulims"} number={4}/>
+        <Section title={"Broulims"} number={5}/>
         </div>
         </div>
         <div className="div-243">
@@ -499,6 +499,9 @@ function Home() {
           display: flex;
           flex-grow: 1;
           flex-direction: column;
+        }
+        .home-img {
+          height: 50%;
         }
         .div-12 {
           color: var(--gray-scale-gray-700, #4d4d4d);
@@ -2174,6 +2177,7 @@ function Home() {
         .div-117 {
           gap: 20px;
           display: flex;
+          height: 525px;
         }
         @media (max-width: 991px) {
           .div-117 {
@@ -2206,15 +2210,15 @@ function Home() {
           }
         }
         .div-119 {
-          disply: flex;
+          display: flex;
           flex-direction: column;
           overflow: hidden;
           align-self: stretch;
           position: relative;
           display: flex;
-          min-height: 536px;
+         
           flex-grow: 1;
-          padding: 37px 20px 294px;
+          padding: 37px 20px 50px;
         }
         @media (max-width: 991px) {
           .div-119 {
@@ -2223,10 +2227,11 @@ function Home() {
         }
         .img-67 {
           position: absolute;
-          height: 100%;
           width: 100%;
+          height: 71%;
           object-fit: cover;
           object-position: center;
+
         }
         .div-120 {
           position: relative;
@@ -2503,7 +2508,7 @@ function Home() {
           align-self: stretch;
           position: relative;
           display: flex;
-          min-height: 536px;
+          
           flex-grow: 1;
           padding: 37px 20px 307px;
         }
@@ -2514,7 +2519,6 @@ function Home() {
         }
         .img-69 {
           position: absolute;
-          height: 100%;
           width: 100%;
           object-fit: cover;
           object-position: center;
@@ -2654,7 +2658,7 @@ function Home() {
           align-self: stretch;
           position: relative;
           display: flex;
-          min-height: 536px;
+      
           flex-grow: 1;
           padding: 37px 20px 307px;
         }
@@ -2665,7 +2669,7 @@ function Home() {
         }
         .img-71 {
           position: absolute;
-          height: 100%;
+        
           width: 100%;
           object-fit: cover;
           object-position: center;

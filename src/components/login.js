@@ -4,7 +4,7 @@ import { useState, useRef } from 'react';
 import { Link } from 'react-router-dom';
 import Footer from "./footer";
 
-import { getAuth,  signInWithEmailAndPassword, onAuthStateChanged} from "firebase/auth";
+import { getAuth,  signInWithEmailAndPassword} from "firebase/auth";
 
 
 
@@ -26,11 +26,7 @@ function Login(props) {
       };
     
   
-      const handleDivClick = () => {
-        if (inputRef.current) {
-          inputRef.current.focus();
-        }
-      };
+     
 
       const handleLogIn = async () => {
         const auth = getAuth();
@@ -40,16 +36,16 @@ function Login(props) {
             // Signed in 
             setEmail('')
             setPassword('')
-            const user = userCredential.user;
+            // const user = userCredential.user;
 
          
     })
     
     
-    .catch((error) => {
-      const errorCode = error.code;
-      const errorMessage = error.message;
-    });
+    // .catch((error) => {
+    //   const errorCode = error.code;
+    //   const errorMessage = error.message;
+    // });
            
   }
       
@@ -67,20 +63,16 @@ function Login(props) {
             id="email"
             value={email}
             onChange={handleEmailChange}/>
-              <div className="div-7" onClick={handleDivClick}>
-               <input className="div-8" 
+           
+               <input className="div-6" 
                 ref={inputRef}
                type="password"
                id="password"
                value={password}
                onChange={handlePasswordChange}
                />
-                <img
-                  loading="lazy"
-                  srcSet="https://cdn.builder.io/api/v1/image/assets/TEMP/7fd91c3e-99db-4ac1-9980-4911fa80ceeb?apiKey=972b909c88a047a3bdbd2a879eeb0409&width=100 100w, https://cdn.builder.io/api/v1/image/assets/TEMP/7fd91c3e-99db-4ac1-9980-4911fa80ceeb?apiKey=972b909c88a047a3bdbd2a879eeb0409&width=200 200w, https://cdn.builder.io/api/v1/image/assets/TEMP/7fd91c3e-99db-4ac1-9980-4911fa80ceeb?apiKey=972b909c88a047a3bdbd2a879eeb0409&width=400 400w, https://cdn.builder.io/api/v1/image/assets/TEMP/7fd91c3e-99db-4ac1-9980-4911fa80ceeb?apiKey=972b909c88a047a3bdbd2a879eeb0409&width=800 800w, https://cdn.builder.io/api/v1/image/assets/TEMP/7fd91c3e-99db-4ac1-9980-4911fa80ceeb?apiKey=972b909c88a047a3bdbd2a879eeb0409&width=1200 1200w, https://cdn.builder.io/api/v1/image/assets/TEMP/7fd91c3e-99db-4ac1-9980-4911fa80ceeb?apiKey=972b909c88a047a3bdbd2a879eeb0409&width=1600 1600w, https://cdn.builder.io/api/v1/image/assets/TEMP/7fd91c3e-99db-4ac1-9980-4911fa80ceeb?apiKey=972b909c88a047a3bdbd2a879eeb0409&width=2000 2000w, https://cdn.builder.io/api/v1/image/assets/TEMP/7fd91c3e-99db-4ac1-9980-4911fa80ceeb?apiKey=972b909c88a047a3bdbd2a879eeb0409&"
-                  className="img"
-                />
-              </div>
+              
+             
             </div>
             <div className="div-9">
               <div className="div-10">
@@ -311,6 +303,7 @@ function Login(props) {
         }
         .div-15 {
           color: var(--gray-scale-white, #fff);
+          background: none;
           font-family: Poppins, sans-serif;
           font-size: 14px;
           font-weight: 600;

@@ -36,17 +36,6 @@ function Register(props) {
     
  
 
-      const handleDivClick = () => {
-        if (inputRef.current) {
-          inputRef.current.focus();
-        }
-      };
-
-      const handleDivClick2 = () => {
-        if (inputRef2.current) {
-          inputRef2.current.focus();
-        }
-      };
 
       const handleAddUser = async (uid) => {
         try {
@@ -73,20 +62,20 @@ function Register(props) {
           }
         const auth = getAuth();
         
-        try {
-          const userCredential = await createUserWithEmailAndPassword(auth, email, password);
-          const user = userCredential.user;
-          const uid = user.uid;
+        // try {
+        //   const userCredential = await createUserWithEmailAndPassword(auth, email, password);
+        //   const user = userCredential.user;
+        //   const uid = user.uid;
           
          
-          handleAddUser(uid)
+        //   handleAddUser(uid)
           
           
-        } catch (error) {
-          const errorCode = error.code;
-          const errorMessage = error.message;
-          // Handle error
-        }
+        // } catch (error) {
+        //   const errorCode = error.code;
+        //   const errorMessage = error.message;
+        //   // Handle error
+        // }
         
       };
     
@@ -102,35 +91,28 @@ function Register(props) {
               <input className="div-6" type="email"
             id="email"
             value={email}
+            
             onChange={handleEmailChange}/>
-              <div className="div-7" onClick={handleDivClick}>
-               <input className="div-8" 
+             
+               <input className="div-6" 
                 ref={inputRef}
                type="password"
                id="password"
                value={password}
                onChange={handlePasswordChange}
                />
-                <img
-                  loading="lazy"
-                  srcSet="https://cdn.builder.io/api/v1/image/assets/TEMP/7fd91c3e-99db-4ac1-9980-4911fa80ceeb?apiKey=972b909c88a047a3bdbd2a879eeb0409&width=100 100w, https://cdn.builder.io/api/v1/image/assets/TEMP/7fd91c3e-99db-4ac1-9980-4911fa80ceeb?apiKey=972b909c88a047a3bdbd2a879eeb0409&width=200 200w, https://cdn.builder.io/api/v1/image/assets/TEMP/7fd91c3e-99db-4ac1-9980-4911fa80ceeb?apiKey=972b909c88a047a3bdbd2a879eeb0409&width=400 400w, https://cdn.builder.io/api/v1/image/assets/TEMP/7fd91c3e-99db-4ac1-9980-4911fa80ceeb?apiKey=972b909c88a047a3bdbd2a879eeb0409&width=800 800w, https://cdn.builder.io/api/v1/image/assets/TEMP/7fd91c3e-99db-4ac1-9980-4911fa80ceeb?apiKey=972b909c88a047a3bdbd2a879eeb0409&width=1200 1200w, https://cdn.builder.io/api/v1/image/assets/TEMP/7fd91c3e-99db-4ac1-9980-4911fa80ceeb?apiKey=972b909c88a047a3bdbd2a879eeb0409&width=1600 1600w, https://cdn.builder.io/api/v1/image/assets/TEMP/7fd91c3e-99db-4ac1-9980-4911fa80ceeb?apiKey=972b909c88a047a3bdbd2a879eeb0409&width=2000 2000w, https://cdn.builder.io/api/v1/image/assets/TEMP/7fd91c3e-99db-4ac1-9980-4911fa80ceeb?apiKey=972b909c88a047a3bdbd2a879eeb0409&"
-                  className="img"
-                />
-              </div>
-              <div className="div-7" onClick={handleDivClick2}>
-               <input className="div-8" 
+             
+       
+              
+               <input className="div-6" 
                 ref={inputRef2}
                type="password"
                id="password2"
                value={password2}
                onChange={handlePasswordChange2}
                />
-                <img
-                  loading="lazy"
-                  srcSet="https://cdn.builder.io/api/v1/image/assets/TEMP/7fd91c3e-99db-4ac1-9980-4911fa80ceeb?apiKey=972b909c88a047a3bdbd2a879eeb0409&width=100 100w, https://cdn.builder.io/api/v1/image/assets/TEMP/7fd91c3e-99db-4ac1-9980-4911fa80ceeb?apiKey=972b909c88a047a3bdbd2a879eeb0409&width=200 200w, https://cdn.builder.io/api/v1/image/assets/TEMP/7fd91c3e-99db-4ac1-9980-4911fa80ceeb?apiKey=972b909c88a047a3bdbd2a879eeb0409&width=400 400w, https://cdn.builder.io/api/v1/image/assets/TEMP/7fd91c3e-99db-4ac1-9980-4911fa80ceeb?apiKey=972b909c88a047a3bdbd2a879eeb0409&width=800 800w, https://cdn.builder.io/api/v1/image/assets/TEMP/7fd91c3e-99db-4ac1-9980-4911fa80ceeb?apiKey=972b909c88a047a3bdbd2a879eeb0409&width=1200 1200w, https://cdn.builder.io/api/v1/image/assets/TEMP/7fd91c3e-99db-4ac1-9980-4911fa80ceeb?apiKey=972b909c88a047a3bdbd2a879eeb0409&width=1600 1600w, https://cdn.builder.io/api/v1/image/assets/TEMP/7fd91c3e-99db-4ac1-9980-4911fa80ceeb?apiKey=972b909c88a047a3bdbd2a879eeb0409&width=2000 2000w, https://cdn.builder.io/api/v1/image/assets/TEMP/7fd91c3e-99db-4ac1-9980-4911fa80ceeb?apiKey=972b909c88a047a3bdbd2a879eeb0409&"
-                  className="img"
-                />
-              </div>
+               
+             
             </div>
             
             <div className="div-9">
@@ -362,6 +344,7 @@ function Register(props) {
         }
         .div-15 {
           color: var(--gray-scale-white, #fff);
+          background-color: var(--branding-success, #00b207);
           font-family: Poppins, sans-serif;
           font-size: 14px;
           font-weight: 600;
@@ -414,5 +397,4 @@ function Register(props) {
 }
 
 
-
-export default Register
+export default Register;

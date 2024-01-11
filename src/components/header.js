@@ -8,11 +8,17 @@ function Header(){
 
     useEffect(() => {
       // Load saved items from local storage when the component mounts
-      let storedItems = JSON.parse(localStorage.getItem('items')) 
-      const length = storedItems.length;
-      console.log(length)
-      setCartLength(length)
-
+      let items = localStorage.getItem('items');
+  
+      if (items) {
+        let storedItems = JSON.parse(items);
+        const length = storedItems.length;
+  
+        setCartLength(length);
+      } else {
+        // Use localStorage.setItem('items', '[]') instead of localStorage.setItem('Items', [])
+        localStorage.setItem('items', JSON.stringify([]));
+      }
     }, []);
 
     return (

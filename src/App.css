@@ -63,6 +63,8 @@ a {
 .div-164 {
   margin: 0px;
   padding: 0px;
+  display: flex;
+  justify-content: center;
 
 }
 
@@ -83,4 +85,7 @@ a {
 
 img {
   max-width: 100%;
+}
+.sc-bdnyFh.ftqDGf {
+  width: 100%;
 }

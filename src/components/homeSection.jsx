@@ -7,7 +7,7 @@ import broulimsCardData from '../broulimsDeals.json'
 
 const GridContainer = styled.div`
   display: grid;
-  grid-template-columns: repeat(4, 1fr);
+  grid-template-columns: repeat(5, 1fr);
   gap: 10px;
   margin: 20px;
 `;
@@ -43,7 +43,7 @@ function Section({title, number}){
           <div className="div-40">
             <button  onClick={() => { 
               
-              setItemsNumber(itemsNumber + 4)
+              setItemsNumber(itemsNumber + 5)
               console.log(itemsNumber)
             }}className="div-41">View More</button>
             <img alt="test"
